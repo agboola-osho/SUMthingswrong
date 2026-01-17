@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #171c35;
+  --background-color: #2E2C44;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #6f8fff;
@@ -144,7 +144,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #171c35;
+  --background-color: #2E2C44;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -933,7 +933,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding-top: 194px;
+  padding-top: 150px;
   position: relative;
   overflow: hidden;
   padding-bottom: 80px;
