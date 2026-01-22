@@ -1548,7 +1548,7 @@ section,
 
 .about .visual-wrapper .secondary-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
   padding-top: 1.5rem;
 }
@@ -2006,13 +2006,15 @@ section,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
   border-radius: 20px 0 0 20px;
+}
+
+.features {
+  background-color: color-mix(in srgb, var(--default-color), transparent 98%);
 }
 
 .features .content-wrapper .section-badge {
   display: inline-block;
-  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #6c5ce7 30%));
   color: var(--contrast-color);
   padding: 8px 20px;
   border-radius: 25px;
@@ -2751,7 +2753,7 @@ section,
   transform: scale(1.02);
 }
 
-.portfolio .portfolio-cta {
+.contact-cta {
   margin-top: 64px;
   padding: 40px;
   background-color: var(--surface-color);
