@@ -20,9 +20,9 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #fcfcfc; /* Background color for the entire website, including individual sections */
-  --default-color: #164279; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #1c2025; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #28346c; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #084755; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #3451b8; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -33,7 +33,7 @@
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #197488; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #1c2025; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #3451b8; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -45,11 +45,11 @@
 }
 
 .dark-background {
-  --background-color: #1597b3;
+  --background-color: ##597b3;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #6f8fff;
-  --surface-color: #197488;
+  --surface-color: #232846;
   --contrast-color: #ffffff;
 }
 
@@ -145,7 +145,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   --background-color: 
-  #197488;
+  #1597b3;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -2099,7 +2099,7 @@ section,
 }
 
 .features .feature-card.secondary::before {
-  background: linear-gradient(90deg, #667eea, #657ece);
+  background: linear-gradient(90deg, #667eea, #764ba2);
 }
 
 .features .feature-card.tertiary::before {
