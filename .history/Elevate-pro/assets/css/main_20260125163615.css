@@ -2883,19 +2883,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), var(--surface-color) 70%);
   border-radius: 999px;
 }
-.pricing .pricing-card .plan-header .bronze-plan-label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 14px;
-  margin-bottom: 14px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: color-mix(in srgb, #483609, transparent 15%);
-  background: color-mix(in srgb, #8b6608, var(--surface-color) 70%);
-  border-radius: 999px;
-}
 
 .pricing .pricing-card .plan-header .plan-description {
   margin-bottom: 0;
