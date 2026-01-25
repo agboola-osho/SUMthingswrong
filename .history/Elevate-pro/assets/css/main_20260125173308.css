@@ -3045,10 +3045,10 @@ section,
   transform: translateY(-2px);
 }
 
-/* .pricing .pricing-card.featured {
+.pricing .pricing-card.featured {
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 25%);
   background: color-mix(in srgb, var(--surface-color), var(--accent-color) 6%);
-} */
+}
 
 .pricing .pricing-card.featured .plan-label {
   background: var(--accent-color);
