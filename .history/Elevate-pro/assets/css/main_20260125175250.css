@@ -28,7 +28,6 @@
   --bronze-color:#aa5f13;
   --silver-color:#797979;
   --gold-color:#ffb923;
-  --icons-color:#05306c;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -533,7 +532,7 @@ h6 {
 
 .footer .brand-section .contact-info .contact-item i {
   font-size: 16px;
-  color: var(--icons-color);
+  color: var(--accent-color);
   margin-right: 12px;
   margin-top: 3px;
   flex-shrink: 0;

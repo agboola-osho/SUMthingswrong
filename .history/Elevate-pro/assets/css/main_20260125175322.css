@@ -533,7 +533,7 @@ h6 {
 
 .footer .brand-section .contact-info .contact-item i {
   font-size: 16px;
-  color: var(--icons-color);
+  color: var(--accent-color);
   margin-right: 12px;
   margin-top: 3px;
   flex-shrink: 0;
