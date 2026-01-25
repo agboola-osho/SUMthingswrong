@@ -193,7 +193,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: var(--icons-color);
+  color: var(--accent-color);
 }
 
 .header .header-social-links a i {

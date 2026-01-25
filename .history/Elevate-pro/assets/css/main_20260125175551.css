@@ -193,7 +193,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: var(--icons-color);
+  color: var(--accent-color);
 }
 
 .header .header-social-links a i {
@@ -810,7 +810,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--icons-color), transparent 20%);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -1060,7 +1060,7 @@ section,
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--icons-color);
+  background: var(--accent-color);
   color: var(--contrast-color);
   padding: 16px 32px;
   border-radius: 8px;
