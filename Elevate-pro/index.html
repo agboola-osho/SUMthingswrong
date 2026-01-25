@@ -607,7 +607,15 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Our Robot</h2>
-        <p>Not too sure what to put here, maybe embed a CAD or some photos of the CAD so far?</p>
+        <model-viewer
+        src="assets/img/Robot-v2.glb"
+        reveal="manual"
+        poster="assets/img/machine-gif.gif"
+        camera-controls
+        loading="lazy"
+        shadow-intenity="0.6"
+        style="width: 100%; height: 500px;"
+        ></model-viewer>
       </div><!-- End Section Title -->
 
       <!--<div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -1643,6 +1651,9 @@
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- 3D Viewer Script -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
