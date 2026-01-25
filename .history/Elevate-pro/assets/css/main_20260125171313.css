@@ -3040,10 +3040,10 @@ section,
 
 
 
-/* .pricing .pricing-card .plan-action .btn-plan:hover {
+.pricing .pricing-card .plan-action .btn-plan:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 10%);
   transform: translateY(-2px);
-} */
+}
 
 .pricing .pricing-card.featured {
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 25%);

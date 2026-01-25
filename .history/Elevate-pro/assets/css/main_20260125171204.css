@@ -2913,20 +2913,6 @@ section,
   border-radius: 999px;
 }
 
-.pricing .pricing-card .plan-header .gold-plan-label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 14px;
-  margin-bottom: 14px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #ffff;
-  background: var(--gold-color);
-  border-radius: 999px;
-}
-
 .pricing .pricing-card .plan-header .plan-description {
   margin-bottom: 0;
   font-size: 15px;
@@ -3024,7 +3010,7 @@ section,
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
-.pricing .pricing-card .gold-plan-action .btn-plan {
+.pricing .pricing-card .silver-plan-action .btn-plan {
   margin-top: auto;
   display: inline-flex;
   align-items: center;
@@ -3040,10 +3026,10 @@ section,
 
 
 
-/* .pricing .pricing-card .plan-action .btn-plan:hover {
+.pricing .pricing-card .plan-action .btn-plan:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 10%);
   transform: translateY(-2px);
-} */
+}
 
 .pricing .pricing-card.featured {
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 25%);

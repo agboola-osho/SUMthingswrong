@@ -25,9 +25,6 @@
   --accent-color: #084755; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-  --bronze-color:#aa5f13;
-  --silver-color:#797979;
-  --gold-color:#ffb923;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -2886,46 +2883,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), var(--surface-color) 70%);
   border-radius: 999px;
 }
-.pricing .pricing-card .plan-header .bronze-plan-label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 14px;
-  margin-bottom: 14px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #ffff;
-  background: var(--bronze-color);
-  border-radius: 999px;
-}
-.pricing .pricing-card .plan-header .silver-plan-label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 14px;
-  margin-bottom: 14px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #ffff;
-  background: var(--silver-color);
-  border-radius: 999px;
-}
-
-.pricing .pricing-card .plan-header .gold-plan-label {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 14px;
-  margin-bottom: 14px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #ffff;
-  background: var(--gold-color);
-  border-radius: 999px;
-}
 
 .pricing .pricing-card .plan-header .plan-description {
   margin-bottom: 0;
@@ -2996,8 +2953,7 @@ section,
   background: var(--accent-color);
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
-.pricing .pricing-card .bronze-plan-action .btn-plan {
-  margin-top: auto;
+.pricing .pricing-card .plan-action .bronze-btn-plan {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -3006,44 +2962,15 @@ section,
   font-weight: 600;
   border-radius: 12px;
   color: var(--contrast-color);
-  background: var(--bronze-color);
-  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
-}
-
-.pricing .pricing-card .silver-plan-action .btn-plan {
-  margin-top: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 12px 18px;
-  font-weight: 600;
-  border-radius: 12px;
-  color: var(--contrast-color);
-  background: var(--silver-color);
-  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
-}
-
-.pricing .pricing-card .gold-plan-action .btn-plan {
-  margin-top: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 12px 18px;
-  font-weight: 600;
-  border-radius: 12px;
-  color: var(--contrast-color);
-  background: var(--gold-color);
+  background: var(#3451b8);
   transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 
-
-/* .pricing .pricing-card .plan-action .btn-plan:hover {
+.pricing .pricing-card .plan-action .btn-plan:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 10%);
   transform: translateY(-2px);
-} */
+}
 
 .pricing .pricing-card.featured {
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 25%);
