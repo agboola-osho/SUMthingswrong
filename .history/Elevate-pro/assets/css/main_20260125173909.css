@@ -3137,16 +3137,13 @@ section,
   display: block;
 }
 
-.social-media-row {
+.row {
   display: flex;
   gap: 24px;          /* space between posts */
   flex-wrap: wrap;    /* allows wrapping on smaller screens */
   justify-content: center; /* optional: center them */
 }
-.insta-post {
-  flex: 1;
-  max-width: 540px;       /* Instagram’s max width */
-}
+
 .faq .faq-item.faq-active .faq-content {
   grid-template-rows: 1fr;
   visibility: visible;
