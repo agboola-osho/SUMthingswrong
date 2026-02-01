@@ -77,11 +77,23 @@ a {
   transition: 0.3s;
 }
 
-.Iconimg {
+.robot-btn, .robot-btn:hover{
+  color: white;
+  background-color: #197488;
   display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center;     /* vertical centering (optional) */
-} 
+  width: fit-content;
+  justify-self: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.blog-link, .blog-link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: inherit;
+}
+
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
